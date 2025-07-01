@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalisysTreatWarningsAsErrors>true</CodeAnalisysTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+    <StartupProject>src/Exchange.wsl.csproj</StartupProject>
+  </PropertyGroup>
+</Project>

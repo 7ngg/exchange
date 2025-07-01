@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/healthcheck", () => new { exchange = true });
 
 app.Run();
